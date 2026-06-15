@@ -1,19 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    
+    color: #B0422E;
     background-color: #1C1C1C ;
-    
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px #B0422E;
+    margin: 20px;
+    font-size: 32px;
+    color: #B0422E;
 }
 
 .Mapa {
-
     color: #1C1C1C;
     font-size: 20px;
-
 }
 
-#heroi {
-
+#Europa {
     display: flex;
     padding-left: 200px;
-    
 }
+
+.Vídeos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
